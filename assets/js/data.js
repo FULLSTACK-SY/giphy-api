@@ -17,7 +17,7 @@
           // Looping through each result item
           for (var i = 0; i < results.length; i++) {
             // Creating and storing a div tag
-            var animalDiv = $("<div class=col-lg-4 col-md-4 col-sm-6 col-12>");
+            var animalDiv = $("<div class=col-lg-4 col-md-6 col-sm-6 col-12>");
             // Creating a paragraph tag with the result item's rating
             var p = $("<p>").text("Rating: " + results[i].rating);
             // Creating and storing an image tag
