@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Giphy API - Animal Search</title>
+</head>
+
+<body>
+
+  <h1>Giphy API - Animal Search</h1>
+
+  <div class="container">
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="animal-form">
+      <label for="animal-input">Add an animal :</label>
+      <input type="text" id="animal-input"><br>
+
+      <!-- Button triggers new animal to be added -->
+      <input id="add-animal" type="submit" class="btn btn-primary btn-lg active" value="Submit">
+    </form>
+
+    <!-- animals will Get Dumped Here -->
+    <div id="animals-view"></div>
+    <div id="images">
+  </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./assets/js/data.js"> </script>
+
+  </div>
+</body>
+
+</html>
