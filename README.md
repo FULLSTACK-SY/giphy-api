@@ -13,3 +13,9 @@ When the user clicks one of the still GIPHY images, the gif animates. If the use
 Under every gif, displaying its rating (PG, G, so on).
 
 Added a form to page which takes the value from a user input box and adds it into the array, making related new button to be used.
+
+Softwares : HTML5, CSS3, Javascript, jQuery
+
+Challenges : Making images stop and play when user clicks on it.
+
+Solution : W3schools.com was a big help for most of the issues. 
