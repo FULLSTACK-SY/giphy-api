@@ -1,5 +1,7 @@
 # giphy-api
 
+Run : https://fullstack-sy.github.io/giphy-api/
+
 Created an array of strings & saved it to a variable.
 
 App takes the topics in this array and create buttons in HTML.
